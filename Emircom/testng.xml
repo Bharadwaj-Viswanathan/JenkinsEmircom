@@ -6,7 +6,7 @@
 		<listener class-name="com.listeners.ListernerClass"></listener>
 		<listener class-name="com.listeners.AnnotationsTransformer"></listener>
 	</listeners>
-	
+
 	<test name="MyTestCase">
 		<classes>
 			<class name="com.testcases.LogInTestCases">
@@ -21,53 +21,56 @@
 			<class name="com.testcases.ForgotPasswordTestCases">
 				<methods>
 					<include name="verifyingForgetPwdPageNavigationTC06" />
-<!--					<include name="verifyingErrorMsgOfResetPasswordPageTC07" />-->
-<!--					<include name="verifyingResetPasswordflowTC08" />-->
-			</methods>
-</class>
-		<class name="com.testcases.ProfilePageTestCases">
-			<methods>
-				<include name="verifyingProfileDetailsTC09" />
-			<include name="verifyinguserabletoeditprofiledetailsTC10" />
-<!--					<include name="verifyingProfilePictureUploadTC11" />
-				<include name="verifyingLogoutFlowTC12" />
-			</methods>
-			</class>
-		<class name="com.testcases.VoucherCreationAndCancelTestCases">
-			<methods>
-				<include name="voucherCreationAsCSSTC13" />
-<!--					<include name="voucherCreationAsGuestTC14" />-->
-<!--					<include name="cancellingVoucherTC15" />-->
+					<!--					<include
+					name="verifyingErrorMsgOfResetPasswordPageTC07" />-->
+					<!--					<include name="verifyingResetPasswordflowTC08" />-->
 				</methods>
-		</class>
-<!--			<class name="com.testcases.RedeemingAndDecliningTestCases">-->
-<!--				<methods>-->
-<!--					<include name="redeemingVoucherTC16" />-->
-<!--					<include name="decliningVoucherTC17" />-->
-<!--				</methods>-->
-<!--			</class>-->
-<!--			<class name="com.testcases.ReactivateRequestFlowTestCases">-->
-<!--				<methods>-->
-<!--					<include name="verifyingReactivateApprovalFlowTC18" />-->
-<!--					<include name="verifyingReactivateRejectFlowTC19" />-->
-<!--				</methods>-->
-<!--			</class>-->
-<!--			<class name="com.testcases.RefundRequestFlowTestCases">-->
-<!--				<methods>-->
-<!--					<include name="refundApproveTC20" />-->
-<!--					<include name="refundRejectTC21" />-->
-<!--				</methods>-->
-<!--			</class>-->
-		<class name="com.testcases.VoucherListTestCases">
-			<methods>
-<!--					<include name="allPageNavigationAndVerifyingEntriesTC22" />-->
-<!--					<include name="voucherSearchInVoucherlistTC23" />-->
-<!--					<include name="downloadVoucherVerificationTC24" />-->
-                                        <include name="logoDiffeVerificationTC25" />
-<!--					<include name="verifyingFilterFlowTC26" />-->
-<!--					<include name="verifyingErrorMsgOfVoucherCreationTC27" />-->
-				<include name="verifyingExportingCsvTC28" />
-			</methods>
+			</class>
+			<class name="com.testcases.ProfilePageTestCases">
+				<methods>
+					<include name="verifyingProfileDetailsTC09" />
+					<include name="verifyinguserabletoeditprofiledetailsTC10" />
+					<!--					<include name="verifyingProfilePictureUploadTC11" />
+				<include name="verifyingLogoutFlowTC12" />-->
+				</methods>
+			</class>
+			<class name="com.testcases.VoucherCreationAndCancelTestCases">
+				<methods>
+					<include name="voucherCreationAsCSSTC13" />
+					<!--					<include name="voucherCreationAsGuestTC14" />-->
+					<!--					<include name="cancellingVoucherTC15" />-->
+				</methods>
+			</class>
+			<!--			<class name="com.testcases.RedeemingAndDecliningTestCases">-->
+			<!--				<methods>-->
+			<!--					<include name="redeemingVoucherTC16" />-->
+			<!--					<include name="decliningVoucherTC17" />-->
+			<!--				</methods>-->
+			<!--			</class>-->
+			<!--			<class name="com.testcases.ReactivateRequestFlowTestCases">-->
+			<!--				<methods>-->
+			<!--					<include name="verifyingReactivateApprovalFlowTC18" />-->
+			<!--					<include name="verifyingReactivateRejectFlowTC19" />-->
+			<!--				</methods>-->
+			<!--			</class>-->
+			<!--			<class name="com.testcases.RefundRequestFlowTestCases">-->
+			<!--				<methods>-->
+			<!--					<include name="refundApproveTC20" />-->
+			<!--					<include name="refundRejectTC21" />-->
+			<!--				</methods>-->
+			<!--			</class>-->
+			<class name="com.testcases.VoucherListTestCases">
+				<methods>
+					<!--					<include
+					name="allPageNavigationAndVerifyingEntriesTC22" />-->
+					<!--					<include name="voucherSearchInVoucherlistTC23" />-->
+					<!--					<include name="downloadVoucherVerificationTC24" />-->
+					<include name="logoDiffeVerificationTC25" />
+					<!--					<include name="verifyingFilterFlowTC26" />-->
+					<!--					<include name="verifyingErrorMsgOfVoucherCreationTC27"
+					/>-->
+					<include name="verifyingExportingCsvTC28" />
+				</methods>
 			</class>
 		</classes>
 	</test>
